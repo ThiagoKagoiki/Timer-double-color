@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: black;
+}
+
+.inputs-botoes{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1090px;
+}
+
+.numeros{
+    height: 320px;
+    width: 320px;
+    border: 2px solid cyan;
+    color: black;
+    outline: none;
+    background-color: black;
+    border-radius: 7px;
+    color: cyan;
+    font-size: 100px;
+    padding: 2px 5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.numeros:hover{
+    border: 2px solid rgb(2, 189, 189);
+    transition: 0.4s;
+}
+
+.milesimos{
+    width: 50px;
+    height: 50px;
+    border: 2px solid cyan;
+    outline: none;
+    background-color: black;
+    border-radius: 7px;
+    position: relative;
+    top: 111px;
+    color: cyan;
+    font-size: 40px;
+    text-align: center;
+}
+
+.milesimos:hover{
+    border: 2px solid rgb(2, 189, 189);
+    transition: 0.4s;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 70px;
+}
+
+#myBtn{
+    font-size: 50px;
+    color: cyan;
+    cursor: pointer;
+    margin-right: 200px;
+}
+
+#myBtn:hover{
+    color: rgb(2, 189, 189);
+    transition: 0.4s;
+}
+
+#myBtn2{
+    font-size: 50px;
+    color: cyan;
+    cursor: pointer;
+    margin-right: 300px;
+    margin-left: 350px;
+}
+
+#myBtn2:hover{
+    color: rgb(2, 189, 189);
+    transition: 0.4s;
+}
+
+.doisPontos{
+    color: cyan;
+    font-size: 100px;
+}
