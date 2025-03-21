@@ -5,7 +5,11 @@ const segundos = document.getElementById('segundos')
 const play = document.getElementById('myBtn')
 // const pause = document.getElementById('myBtn2').value
 
-let tempo_segundo = 10;
+var filtroTeclas = function(event) {
+    return ((event.charCode >= 48 && event.charCode <= 57) || (event.keyCode == 45 || event.charCode == 46))
+  }
+
+let tempo_segundo = segundos;
 let intervalo_segundo;
 
 function atualizaSegundo(){

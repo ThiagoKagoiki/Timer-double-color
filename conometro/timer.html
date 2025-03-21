@@ -10,12 +10,12 @@
 <body>
     <div class="inputs-botoes">
         <div class="inputs">
-            <input type="text" class="numeros" id="horas" maxlength="2">
+            <input type="text" class="numeros" id="horas" maxlength="2" onkeypress='return filtroTeclas(event)'>
             <span class="doisPontos">:</span>
-            <input type="text" class="numeros" id="minutos" maxlength="2">
+            <input type="text" class="numeros" id="minutos" maxlength="2" onkeypress='return filtroTeclas(event)'>
             <span class="doisPontos">:</span>
-            <input type="text" class="numeros" id="segundos" maxlength="2">
-            <input type="text" class="milesimos" id="milesimos" maxlength="2">
+            <input type="text" class="numeros" id="segundos" maxlength="2" onkeypress='return filtroTeclas(event)'>
+            <input type="text" class="milesimos" id="milesimos" maxlength="2" onkeypress='return filtroTeclas(event)'>
         </div>
         <div class="botoes">
             <div id="myBtn2"><i class="fa fa-pause" aria-hidden="true"></i></div>
